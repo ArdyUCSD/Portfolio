@@ -1,0 +1,56 @@
+.jumbotron {
+	height: 80%;
+}
+h1 {
+	font-family: verdana;
+	font-weight: bolder;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	letter-spacing: 10px;
+	display: block;
+}
+.bottom {
+	height: 20%;
+}
+h2 {
+	font-family: verdana;
+	font-weight: lighter;
+	color: white;
+	font-size: 100%;
+	text-align: center;
+}
+h3 {
+	font-family: verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+}
+h4 {
+	font-family: verdana;
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	text-align: center;
+}
+
+.home {
+	background-image: url('http://replygif.net/i/707.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+#icons {
+	height:30%;
+	width:30%;
+}
+.container {
+	display: flex;
+}
+.container > div {
+	flex: 1;
+}
