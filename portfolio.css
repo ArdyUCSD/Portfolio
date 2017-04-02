@@ -1,6 +1,12 @@
 .jumbotron {
 	height: 80%;
 }
+.options {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 h1 {
 	font-family: verdana;
 	font-weight: bolder;
@@ -26,6 +32,7 @@ h3 {
 	color: white;
 	font-size: 300%;
 	text-align: center;
+	letter-spacing: 5px;
 }
 h4 {
 	font-family: verdana;
@@ -43,10 +50,12 @@ h4 {
 a {
 	color: white;
 	text-decoration: none;
+	text-align: center;
+	font-family: verdana;
 }
 #icons {
-	height:30%;
-	width:30%;
+	height:40%;
+	width:40%;
 }
 .container {
 	display: flex;
@@ -55,6 +64,40 @@ a {
 	flex: 1;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: right;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li h5 {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: verdana;
+
+}
+li a:hover:not(.active) {
+	/*to put in hover activity*/
+}
+.active {
+	background-color: #1A416D;
+}
+
+/* FOR MOBILE */
 @media screen and (max-width: 960px) {
 	.jumbotron {
 	height: 80%;
@@ -97,6 +140,10 @@ a {
 		color: white;
 		font-size: 150%;
 		text-align: center;
+	}
+	#icons {
+		height: 30%;
+		width: 30%;
 	}
 }
 
