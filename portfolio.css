@@ -41,6 +41,16 @@ h4 {
 	font-size: 150%;
 	text-align: center;
 }
+p {
+	font-family: verdana;
+	color: black;
+	font-size: 100%;
+	text-align: left;
+	line-height: 200%;
+}
+p a {
+	line-height: 50%;
+}
 
 .home {
 	background-image: url('http://replygif.net/i/707.gif');
@@ -96,8 +106,14 @@ li a:hover:not(.active) {
 .active {
 	background-color: #1A416D;
 }
+#IFRM{
+    float:center;
+    padding-right: 10px;
+    position:relative;
+}
 
-/* FOR MOBILE********************************************************************************** */
+
+/* FOR MOBILE******************************************************************************************** */
 @media screen and (max-width: 1080px) {
 	.jumbotron {
 	height: 80%;
@@ -208,11 +224,15 @@ li a:hover:not(.active) {
 		font-family: verdana;
 		font-size: 200%;
 	}
+	#myBtn5 {
+		font-family: verdana;
+		font-size: 200%;
+	}
 	#ICONPHOTO {
 		height: 150px;
 	}
 }
-/***************************************************************************************/
+/**********************************************************************************************************/
 
 /*DROPDOWN STUDD */
 /*THIS IS THE BLOG DROPDOWN STUFF */
@@ -271,6 +291,10 @@ li a:hover:not(.active) {
 	font-size: 200%;
 }
 #myBtn4 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn5 {
 	font-family: verdana;
 	font-size: 200%;
 }
