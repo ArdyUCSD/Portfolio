@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf=8">
+	<link rel="stylesheet" href="portfolio.css"> <!--INSERT CONDITION FOR MOBILE-->
+	<title>Product Design | Ardavan Amini</title>
+</head>
+<body bgcolor="#333333">
+	<ul>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a class="active" href="about.html">About</a></li>		
+		<li><a href="design.html">Home</a></li>
+		<li style="float:left"><a>Ardavan Amini</a></li>
+	</ul>
+	<hr>
+	<div class="jumbotron">
+		<h1>Product Design Work</h1>
+	</div>
+	<br><br>
+	<div style="text-align:center">
+			<div class="dropdown">
+				<button id="myBtn2" class="dropbtn">Modular Attachable Drone<br><span style="font-size:60%;">A Versatile 3D Printed Drone</span></button>
+				<div id="myDropdown2" class="dropdown-content" style="text-align:left;padding:10px">
+					<!-- INSERT WRITING -->
+				</div>
+			</div>
+			<br>
+			<div class="dropdown">
+				<button id="myBtn3" class="dropbtn">Gyroscopic Ship Stabilizer</button>
+				<div id="myDropdown3" class="dropdown-content" style="text-align:left;padding:10px">
+					<!-- INSERT WRITING -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<button id="myBtn" class="dropbtn">ModBlocks</button>
+  				<div id="myDropdown" class="dropdown-content" style="text-align:left;padding:10px">
+    				<!-- INSERT WRITING -->
+  				</div>
+			</div>
+		</div>
+	<script>
+
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn").onclick = function() {myFunction()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction() {
+    		document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		document.getElementById("myBtn2").onclick = function() {myFunction2()};
+
+		function myFunction2() {
+    		document.getElementById("myDropdown2").classList.toggle("show");
+		}
+
+		document.getElementById("myBtn3").onclick = function() {myFunction3()};
+
+		function myFunction3() {
+    		document.getElementById("myDropdown3").classList.toggle("show");
+		}
+	</script>
+</body>
+</html>
