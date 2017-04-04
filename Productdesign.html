@@ -3,13 +3,13 @@
 <html>
 <head>
 	<meta charset="utf=8">
-	<link rel="stylesheet" href="portfolio.css"> <!--INSERT CONDITION FOR MOBILE-->
+	<link rel="stylesheet" href="portfolio.css">
 	<title>Product Design | Ardavan Amini</title>
 </head>
 <body bgcolor="#333333">
 	<ul>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a class="active" href="about.html">About</a></li>		
+		<li><a href="about.html">About</a></li>		
 		<li><a href="design.html">Home</a></li>
 		<li style="float:left"><a>Ardavan Amini</a></li>
 	</ul>
@@ -22,20 +22,28 @@
 			<div class="dropdown">
 				<button id="myBtn2" class="dropbtn">Modular Attachable Drone<br><span style="font-size:60%;">A Versatile 3D Printed Drone</span></button>
 				<div id="myDropdown2" class="dropdown-content" style="text-align:left;padding:10px">
-					<!-- INSERT WRITING -->
+					MAD
 				</div>
 			</div>
 			<br>
 			<div class="dropdown">
-				<button id="myBtn3" class="dropbtn">Gyroscopic Ship Stabilizer</button>
+				<button id="myBtn3" class="dropbtn">Gyroscopic Ship Stabilizer<br><span style="font-size:60%;">Ocean Wave Stabilization Device</span></button>
 				<div id="myDropdown3" class="dropdown-content" style="text-align:left;padding:10px">
-					<!-- INSERT WRITING -->
+					Stabilizer
 				</div>
 			</div>
+			<br>
 			<div class="dropdown">
-				<button id="myBtn" class="dropbtn">ModBlocks</button>
+				<button id="myBtn" class="dropbtn">ModBlocks<br><span style="font-size:60%;">Educational Circuit Blocks for Children</span></button>
   				<div id="myDropdown" class="dropdown-content" style="text-align:left;padding:10px">
-    				<!-- INSERT WRITING -->
+    				ModBlocks
+  				</div>
+			</div>
+			<br>
+			<div class="dropdown">
+				<button id="myBtn4" class="dropbtn">Musi-Me<br><span style="font-size:60%;">A Music Making Toy for Children</span></button>
+  				<div id="myDropdown4" class="dropdown-content" style="text-align:left;padding:10px">
+    				Musi-Me
   				</div>
 			</div>
 		</div>
@@ -59,6 +67,12 @@
 
 		function myFunction3() {
     		document.getElementById("myDropdown3").classList.toggle("show");
+		}
+
+		document.getElementById("myBtn4").onclick = function() {myFunction4()};
+
+		function myFunction4() {
+    		document.getElementById("myDropdown4").classList.toggle("show");
 		}
 	</script>
 </body>

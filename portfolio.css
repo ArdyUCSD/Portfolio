@@ -97,8 +97,8 @@ li a:hover:not(.active) {
 	background-color: #1A416D;
 }
 
-/* FOR MOBILE */
-@media screen and (max-width: 960px) {
+/* FOR MOBILE****************************************** */
+@media screen and (max-width: 1080px) {
 	.jumbotron {
 	height: 80%;
 	text-align: center;
@@ -200,6 +200,10 @@ li a:hover:not(.active) {
 	font-size: 200%;
 }
 #myBtn3 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn4 {
 	font-family: verdana;
 	font-size: 200%;
 }
