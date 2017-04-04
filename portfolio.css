@@ -106,7 +106,7 @@ li a:hover:not(.active) {
 	h1 {
 		font-family: verdana;
 		font-weight: bolder;
-		color: black;
+		color: white;
 		font-size: 200%;
 		text-align: center;
 		display: block;
@@ -128,8 +128,9 @@ li a:hover:not(.active) {
 		height: 20%;
 	}
 	a {
-		color: black;
+		color: white;
 		text-decoration: none;
+		font-weight: bolder;
 	}
 	.container {
 		display: block;
