@@ -41,6 +41,12 @@ h4 {
 	font-size: 150%;
 	text-align: center;
 }
+h6 {
+	float: right;
+	display: inline;
+	font-size: 200%;
+	font-family: verdana;
+}
 p {
 	font-family: verdana;
 	color: black;
@@ -85,7 +91,7 @@ li {
 	float: right;
 }
 li a {
-	display: block;
+	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -118,13 +124,24 @@ iframe {
 	width:560px;
 	height:315px;
 }
-
+#NAME {
+	color: white;
+	float: left;
+}
+#headshot {
+	width: 40%;
+}
 
 /* FOR MOBILE******************************************************************************************** */
 @media screen and (max-width: 1080px) {
 	.jumbotron {
 	height: 80%;
 	text-align: center;
+	}
+	#NAME {
+		color: white;
+		text-align: center;
+		display: block;
 	}
 	h1 {
 		font-family: verdana;
@@ -155,8 +172,19 @@ iframe {
 		text-decoration: none;
 		font-weight: bolder;
 	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		text-align: center;
+	}
+	li {
+		text-align: center;
+	}
 	li a {
-		display: block;
+		float: right;
 		color: white;
 		text-align: center;
 		padding: 14px 16px;
@@ -177,6 +205,9 @@ iframe {
 	#icons {
 		height: 30%;
 		width: 30%;
+	}
+	#headshot {
+		width: 80%;
 	}
 
 	/*DROPDOWN STUDD */
