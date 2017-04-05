@@ -90,6 +90,8 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: 100%;
+
 }
 li h5 {
 	display: block;
@@ -98,6 +100,7 @@ li h5 {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-family: verdana;
+
 
 }
 li a:hover:not(.active) {
@@ -151,6 +154,15 @@ iframe {
 		color: white;
 		text-decoration: none;
 		font-weight: bolder;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 150%;
+
 	}
 	.container {
 		display: block;
@@ -232,6 +244,10 @@ iframe {
 		font-family: verdana;
 		font-size: 200%;
 	}
+	#myBtn6 {
+		font-family: verdana;
+		font-size: 200%;
+	}
 	#ICONPHOTO {
 		height: 150px;
 	}
@@ -302,6 +318,10 @@ iframe {
 	font-size: 200%;
 }
 #myBtn5 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn6 {
 	font-family: verdana;
 	font-size: 200%;
 }
