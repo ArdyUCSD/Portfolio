@@ -82,8 +82,7 @@ a {
 	font-family: verdana;
 }
 #icons {
-	height:40%;
-	width:40%;
+	width: 40%;
 }
 .container {
 	display: flex;
@@ -216,6 +215,7 @@ iframe {
 	}
 	#icons {
 		height: 30%;
+		width: 30%;
 	}
 	#headshot {
 		width: 80%;
