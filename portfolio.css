@@ -41,6 +41,12 @@ h4 {
 	font-size: 150%;
 	text-align: center;
 }
+h5 {
+	font-family: verdana;
+	color: white;
+	font-size: 125%;
+	font-weight: lighter;
+}
 h6 {
 	float: right;
 	display: inline;
@@ -54,8 +60,14 @@ p {
 	text-align: left;
 	line-height: 200%;
 }
+p.italic {
+	font-style: italic;
+}
 p a {
 	line-height: 50%;
+}
+a.clickable {
+	background-color: #bcceac;
 }
 
 .home {
