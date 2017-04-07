@@ -18,6 +18,45 @@
 		<h1>User Interface Design Work</h1>
 	</div>
 	<br><br>
-	<h4>TESTING TESTING</h4>
+	<div style="text-align:center">
+		<div class="dropdown">
+			<button id="myBtn100" class="dropbtn">SD Plot<br><span style="font-size:60%;">Data Visualization Web App</span></button>
+			<div id="myDropdown100" class="dropdown-content" style="text-align:left;padding:10px">
+				<div style="text-align: center">
+					<a class="clickable" href="http://lifefitness.herokuapp.com">lifefitness.herokuapp.com</a><br><br>
+					<img src="Pictures/SDPlot.png" id="headshot">
+					<p>SD Plot is a data visualization application that shows what people in San Diego County are most at risk for based on their age and gender in different sections of SD County. For example, one can see where assaults are most prevalent for males between 25 and 44, which would show how concentrated assaults are for that age range of males in different parts of San Diego (in this case, Mid-City is the highest risk location).
+
+				<br><p class="italic">Keywords: Iterative prototyping, design thinking, brainstorming, human-centered design, HTML, CSS, Javascript, user testing, databases, D3.js, data analysis</p></p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<div style="text-align:center">
+		<div class="dropdown">
+			<button id="myBtn101" class="dropbtn">Musey<br><span style="font-size:60%;">Music Playlist Mobile Web App</span></button>
+			<div id="myDropdown101" class="dropdown-content" style="text-align:left;padding:10px">
+				<div style="text-align: center">
+					<a class="clickable" href="http://ardavanamini.com/musey.html" target="_top">Currently Unavailable: See more photos here</a><br><br>
+					<img src="Pictures/Musey_Prog.png" id="headshot2">
+					<p>Musey is a mobile web app that allows users to generate playlists based on their mood, the activity they are doing, or by the genre of their liking. The sleek and simple user interface makes the process of selecting a playlist effortless. Each generated playlist is ten songs; however, the 'next playlist' button creates an entirely new playlist in that same category. Another unique feature of Musey is that the user can select different layout and text theme colors, which makes the web app seem more personal to their taste. More photos are available in the link above!
+
+				<br><p class="italic">Keywords: Iterative prototyping, design thinking, brainstorming, human-centered design, HTML, CSS, Javascript, user testing, databases, API, woopra, data analysis, Google analytics</p></p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<script>
+		document.getElementById("myBtn100").onclick = function() {myFunction100()};
+		function myFunction100() {
+    		document.getElementById("myDropdown100").classList.toggle("show");
+		}
+		document.getElementById("myBtn101").onclick = function() {myFunction101()};
+		function myFunction101() {
+    		document.getElementById("myDropdown101").classList.toggle("show");
+		}
+	</script>
 </body>
 </html>

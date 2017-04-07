@@ -142,6 +142,9 @@ iframe {
 #headshot {
 	width: 40%;
 }
+#headshot2 {
+	width: 75%;
+}
 
 /* FOR MOBILE******************************************************************************************** */
 @media screen and (max-width: 1080px) {
@@ -219,6 +222,9 @@ iframe {
 	}
 	#headshot {
 		width: 80%;
+	}
+	#headshot2 {
+		width: 85%;
 	}
 
 	/*DROPDOWN STUDD */
@@ -336,7 +342,7 @@ iframe {
     display: inline-block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #bcceac}
 
 .show {display:block;}
 
@@ -364,6 +370,14 @@ iframe {
 	font-size: 200%;
 }
 #myBtn6 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn100 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn101 {
 	font-family: verdana;
 	font-size: 200%;
 }
