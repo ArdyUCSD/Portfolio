@@ -53,6 +53,14 @@ h6 {
 	font-size: 200%;
 	font-family: verdana;
 }
+h7 {
+	font-family: verdana;
+	font-weight: bold;
+	color: black;
+	font-size: 150%;
+	text-align: center;
+	display: block;
+}
 p {
 	font-family: verdana;
 	color: black;
@@ -222,6 +230,14 @@ iframe {
 		font-size: 150%;
 		text-align: center;
 	}
+	h7 {
+		font-family: verdana;
+		font-weight: bold;
+		color: black;
+		font-size: 150%;
+		text-align: center;
+		display: block;
+	}
 	#icons {
 		height: 30%;
 		width: 30%;
@@ -302,6 +318,10 @@ iframe {
 		font-family: verdana;
 		font-size: 200%;
 	}
+	#myBtn7 {
+		font-family: verdana;
+		font-size: 200%;
+	}
 	#ICONPHOTO {
 		height: 150px;
 	}
@@ -376,6 +396,10 @@ iframe {
 	font-size: 200%;
 }
 #myBtn6 {
+	font-family: verdana;
+	font-size: 200%;
+}
+#myBtn7 {
 	font-family: verdana;
 	font-size: 200%;
 }

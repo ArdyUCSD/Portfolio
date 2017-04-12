@@ -90,6 +90,26 @@
 	    			</div>
   				</div>
 			</div>
+			<br>
+			<div class="dropdown">
+				<button id="myBtn7" class="dropbtn">Misc. CAD Work<br><span style="font-size:60%;">SolidWorks/OnShape Work of Interest</span></button>
+				<div id="myDropdown7" class="dropdown-content" style="text-align:left;padding:10px">
+					<div style="text-align: center">
+						<h7>Crane Design with Animation</h7>
+						<img src="Pictures/crane.gif" id="headshot">
+						<br><br>
+						<h7>Worm Gear Reducer</h7>
+						<img src="Pictures/WGR.png" id="headshot">
+						<img src="Pictures/WGR_exp.png" id="headshot">
+						<br><br>
+						<h7>Telephone Mold</h7>
+						<img src="Pictures/Mold_ex.png" id="headshot">
+						<br><br>
+						<h7>Sheet Metal</h7>
+						<img src="Pictures/sheet.png" id="headshot">
+					</div>
+				</div>
+			</div>
 		</div>
 	<script>
 
@@ -129,6 +149,12 @@
 
 		function myFunction6() {
     		document.getElementById("myDropdown6").classList.toggle("show");
+		}
+
+		document.getElementById("myBtn7").onclick = function() {myFunction7()};
+
+		function myFunction7() {
+    		document.getElementById("myDropdown7").classList.toggle("show");
 		}
 	</script>
 </body>
