@@ -70,10 +70,13 @@ a.clickable {
 	background-color: #bcceac;
 }
 
-.home {
-	background-image: url('http://replygif.net/i/707.gif');
-    background-size: cover;
+/*.home {
+	background-image: url('Pictures/homepage.gif');
+    background-size: 50%;
     background-repeat: no-repeat;
+}*/
+#homegif {
+	width:40%;
 }
 a {
 	color: white;
@@ -172,11 +175,14 @@ iframe {
 		font-size: 100%;
 		text-align: center;
 	}
-	.home {
+	/*.home {
 		background-image: url('http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/warriors/images/Happy_Steph300x200.gif');
 	    background-size: 200%;
 	    background-repeat: no-repeat;
 	    text-align: center;
+	}*/
+	#homegif {
+		width:80%;
 	}
 	.bottom {
 		height: 20%;
